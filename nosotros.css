@@ -1,0 +1,104 @@
+body{
+    font-family: ;
+    margin: 0px;
+    background-image: url(img/portada1.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.barra-nav{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 0px;
+}
+
+.barra-nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.barra-nav-logo  img {
+    height: 100px;
+}
+
+.barra-nav-nombre{
+    color: rgb(255, 252, 252);
+    font-family: 'Poppins', sans-serif;
+}
+
+.barra-nav-enlaces{
+    padding: 20px;
+}
+
+.barra-nav-enlaces a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.col-md-6{
+    opacity: 75%;
+    padding-top: 16%;
+    padding-left: 14%;
+    padding-right: 0%;
+}
+
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 30%;
+    opacity: 75%;
+}
+
+.contenedor-titulo{
+    padding-top: 20%;
+    opacity: 100%;
+    padding-bottom: 10%;
+}
+
+.contendor-listas{
+    padding-left: 10%;
+}
+
+.listas-lista-A{
+    padding: 5%;
+}
+
+.lista-B{
+    padding: 2%;
+    padding-bottom: 2%;
+}
+
+.lista-B-titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.contenedor-subtitulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media (max-width:800px) {
+    .barra-nav{
+            flex-direction: column;
+    }
+    
+    .barra-nav-nombre{
+      padding-top: 20px;
+      align-items: center;
+    }
+
+    .contenedor{
+        background-color: rgb(255, 255, 255);
+        height: 100%;
+        width: 100%;
+        opacity: 75%;
+    }
+}

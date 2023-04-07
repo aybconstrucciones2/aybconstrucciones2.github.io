@@ -1,0 +1,81 @@
+body{
+    font-family: ;
+    margin: 0px;
+    background-image: url(img/fondo.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.barra-nav{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 0px;
+}
+
+.barra-nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.barra-nav-logo  img {
+    height: 100px;
+}
+
+.barra-nav-nombre{
+    color: rgb(255, 252, 252);
+    font-family: 'Poppins', sans-serif;
+}
+
+.barra-nav-enlaces{
+    padding: 20px;
+}
+
+.barra-nav-enlaces a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.col-md-6{
+    opacity: 75%;
+    padding-top: 16%;
+    padding-left: 14%;
+    padding-right: 0%;
+}
+.btn-outline-light{
+    text-decoration: none;
+}
+
+@media (max-width:800px) {
+    .barra-nav{
+            flex-direction: column;
+    }
+    
+    .barra-nav-nombre{
+      padding-top: 20px;
+      align-items: center;
+    }
+
+
+    .col-md-6{
+        opacity: 75%;
+        padding-top: 50%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .barra-nav-logo{
+        align-items: center;
+    }
+    .barra-nav-logo{
+        justify-content: center;
+        align-items: center;
+    }
+
+}

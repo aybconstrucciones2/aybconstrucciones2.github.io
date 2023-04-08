@@ -60,7 +60,7 @@ body{
     gap: 2%;
 }
 
-@media (max-width:1600px) {
+@media (max-width:1000px) {
     .barra-nav{
             flex-direction: column;
     }
